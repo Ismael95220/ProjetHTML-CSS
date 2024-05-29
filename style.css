@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+}
+
+*{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*NavBar*/
+header{
+    background-color: #19314B;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h3{
+    color: #A88D3A;
+    text-transform: uppercase;
+}
+
+.leftNav{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoNav{
+    width: 100px;
+}
+
+.rightNav{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.rightNav section{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+header h3:hover{
+    color: white;
+}
+
+
+/*Slogan*/
+.imgBackground{
+    width: 100%;
+    height: 1000px;
+    opacity: 50%;
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+}
+
+.slogan h1{
+    position: absolute;
+    top: 250px;
+    font-size: 50px;
+    font-family: "Trade Winds";
+    text-shadow: 5px 10px 10px rgb(179, 179, 179);
+}
+
+.slogan p{
+    position: absolute;
+    top: 400px;
+    width: 60%;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    font-family: "Inter";
+    text-align: center;
+}
+
+.slogan button{
+    position: absolute;
+    top: 750px;
+    font-size: 25px;
+    border-radius: 60px;
+    padding: 20px 35px;
+    background-color: #19314B;
+    color: #A88D3A;
+    font-family: "Inter";
+    text-transform: uppercase;
+    font-weight: 700;
+    border: 0;
+    transition: transform .2s;
+}
+
+.slogan button:hover{
+    transform: scale(1.2);
+    color: white;
+}
+
+.designBackground{
+    display: flex;
+    justify-content: space-between;
+    height: 0;
+}
+
+.triangleLeft{
+    position: relative;
+    bottom: 300px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0px 300px 750px;
+    border-color: transparent transparent transparent white;
+    rotate: x 180deg;
+}
+
+.triangleRight{
+    position: relative;
+    bottom: 300px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0px 300px 750px;
+    border-color: transparent transparent transparent white;
+    rotate: z 180deg;
+}
+
+/*Best-Sellers*/
+.bestSellers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.bestSellers img{
+    height: 200px;
+    width: 270px;
+}
+
+.bestSellers h1{
+    font-size: 45px;
+    font-family: "Playfair Display";
+    text-transform: uppercase;
+    text-shadow: 5px 10px 10px rgb(179, 179, 179);
+    text-decoration: underline #A88D3A;
+    padding: 50px 10px;
+}
+
+/*firstBS*/
+.firstBS{
+    display: flex;
+}
+
+.firstBS img{
+    width: 40%;
+    height: 600px;
+}
+
+.firstBS div{
+    width: 60%;
+    height: 600px;
+    background-color: #5E6F81;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.firstBS h1{
+    color: #A88D3A;
+    font-family: "Trade Winds";
+    font-size: 50px;
+    height: 10px;
+    text-shadow: 5px 10px 15px black;
+}
+
+.firstBS p{
+    width: 90%;
+    height: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Inter";
+    font-style: italic;
+    position: relative;
+    top: -20px;
+}
+
+.firstBS button{
+    position: relative;
+    top: -50px;
+    font-size: 20px;
+    border-radius: 60px;
+    padding: 0px 30px;
+    background-color: #A88D3A;
+    color: #19314B;
+    font-family: "Inter";
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: transform .2s;
+    border: 0px;
+}
+
+.firstBS button:hover{
+    transform: scale(1.2);
+    color: #A88D3A;
+    background-color: #19314B;
+    border: 1px solid white;
+}
+
+/*secondBS*/
+.secondBS{
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondBS img{
+    width: 50%;
+    height: 600px;
+}
+
+.secondBS div{
+    width: 50%;
+    height: 600px;
+    background-color: #5E6F81;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.secondBS h1{
+    color: #A88D3A;
+    font-family: "Trade Winds";
+    font-size: 50px;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 5px 10px 15px black;
+
+}
+
+.secondBS h2{
+    color: #A88D3A;
+    font-family: "Trade Winds";
+    font-size: 30px;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    text-shadow: 5px 10px 15px black;
+
+}
+
+.secondBS p{
+    width: 80%;
+    height: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Inter";
+    font-style: italic;
+    position: relative;
+    top: -50px;
+}
+
+.secondBS button{
+    position: relative;
+    top: -35px;
+    font-size: 20px;
+    border-radius: 60px;
+    padding: 15px 30px;
+    background-color: #A88D3A;
+    color: #19314B;
+    font-family: "Inter";
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: transform .2s;
+    border: 0px;
+}
+
+.secondBS button:hover{
+    transform: scale(1.2);
+    color: #A88D3A;
+    background-color: #19314B;
+    border: 1px solid white;
+
+}
+
+/*thirdBS*/
+.thirdBS{
+    display: flex;
+}
+
+.thirdBS img{
+    width: 40%;
+    height: 600px;
+}
+
+.thirdBS div{
+    width: 60%;
+    height: 600px;
+    background-color: #5E6F81;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thirdBS h1{
+    color: #A88D3A;
+    font-family: "Trade Winds";
+    font-size: 50px;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+    text-shadow: 5px 10px 15px black;
+
+}
+
+.thirdBS h2{
+    color: #A88D3A;
+    font-family: "Trade Winds";
+    font-size: 30px;
+    height: 10px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -25px;
+    text-shadow: 5px 10px 15px black;
+
+}
+
+.thirdBS p{
+    width: 90%;
+    height: 300px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-family: "Inter";
+    font-style: italic;
+    position: relative;
+    top: -20px;
+}
+
+.thirdBS button{
+    position: relative;
+    top: -50px;
+    font-size: 20px;
+    border-radius: 60px;
+    padding: 15px 30px;
+    background-color: #A88D3A;
+    color: #19314B;
+    font-family: "Inter";
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: transform .2s;
+    border: 0px;
+}
+
+.thirdBS button:hover{
+    transform: scale(1.2);
+    color: #A88D3A;
+    background-color: #19314B;
+    border: 1px solid white;
+
+}
