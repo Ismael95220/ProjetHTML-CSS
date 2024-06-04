@@ -1,0 +1,258 @@
+body{
+    margin: 0;
+}
+
+*{
+    text-decoration: none;
+    color: inherit;
+}
+
+/*NavBar*/
+header{
+    background-color: #19314B;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h3{
+    color: #A88D3A;
+    text-transform: uppercase;
+}
+
+.leftNav{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logoNav{
+    width: 100px;
+}
+
+.rightNav{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.rightNav section{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;    
+}
+
+header h3:hover{
+    color: white;
+}
+
+/*Body*/
+main{
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    margin-top: 250px;
+}
+
+main h1{
+    font-family: "Playfair Display";
+    font-size: 30px;
+}
+
+.leftTop{
+    width: 60%;
+    height: 1000px;
+}
+
+.rightTop{
+    width: 30%;
+    height: 500px;
+    background-color: #d9d9d94a;
+    font-family: "Playfair Display";
+    padding: 10px 30px;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 90%;
+}
+
+.title{
+    position: relative;
+    bottom: 100px;
+}
+
+.article{
+    flex-direction: column;
+}
+
+.articleBox{
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+
+.articleBox img{
+    width: 300px;
+    height: 300px;
+    border: 0.5px solid rgb(220, 220, 220);
+}
+
+.textBoxTop{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textBox h2{
+    font-family: "Inter";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.titleBox{
+    text-transform: uppercase;
+}
+
+select{
+    height: 30px;
+    width: 40px;
+}
+
+.select{
+    width: 100px;
+    height: 11%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.textBox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.textBoxBottom{
+    width: 27%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box{
+    width: 70px;
+    height: 25px;
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box p{
+    font-size: 12px;
+}
+
+.commandeText{
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.lineRight{
+    background-color: black;
+    height: 3px;
+    width: 350px;
+}
+
+.sousTotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.livraison{
+    display: flex;
+    justify-content: space-between;
+}
+
+.codePromo input{
+    height: 40px;
+    font-size: 17px;
+}
+
+.rightTop p{
+    font-size: 20px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*LivraisonBox*/
+.panierBottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.livraisonBox{
+    width: 90%;
+    height: 600px;
+    background-color: rgba(226, 226, 226, 0.099);
+    border: solid 1px rgb(227, 227, 227);
+    padding: 0px 0px;
+}
+
+.livraisonBox h1{
+    font-family: "Playfair Display";
+    font-size: 30px;
+}
+
+.livraisonBox label{
+    font-family: "Inter";
+    font-size: 17px;
+}
+
+.lineLivraison{
+    width: 60%;
+    height: 3px;
+    background-color: black;
+}
+
+.civilité{
+    width: auto;
+    height: 30px;
+}
+
+.firstLine input{
+    height: 30px;
+}
+
+.firstLine{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+
+.first,.second,.third{
+    display: flex;
+    justify-content: space-between;
+}
