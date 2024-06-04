@@ -214,10 +214,10 @@ select{
 
 .livraisonBox{
     width: 90%;
-    height: 600px;
+    height: auto;
     background-color: rgba(226, 226, 226, 0.099);
     border: solid 1px rgb(227, 227, 227);
-    padding: 0px 0px;
+    padding: 0px 40px;
 }
 
 .livraisonBox h1{
@@ -225,34 +225,148 @@ select{
     font-size: 30px;
 }
 
-.livraisonBox label{
-    font-family: "Inter";
-    font-size: 17px;
-}
-
-.lineLivraison{
+.lineTitle{
     width: 60%;
-    height: 3px;
     background-color: black;
+    height: 3px;
 }
 
-.civilité{
-    width: auto;
+.firstLineLivraison{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.firstLineLivraison p{
+    width: 150px;
+}
+
+.secondLineLivraison{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondLineLivraison input,select{
+    width: 150px;
     height: 30px;
 }
 
-.firstLine input{
+.thirdLineLivraison{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdLineLivraison p{
+    width: 150px;
+}
+
+.fourthLineLivraison{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthLineLivraison input{
+    width: 150px;
     height: 30px;
 }
 
-.firstLine{
-    width: auto;
+.lineMode{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagePaiement{
+    width: 100%;
     display: flex;
     justify-content: space-around;
+}
+
+.imagePaiement img{
+    width: 250px;
+    height: 200px;
+}
+
+.inputPaiement{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.paiement{
+    display: flex;
     justify-content: center;
 }
 
-.first,.second,.third{
+.paiement div{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    background-color: #19314B;
+    color: #A88D3A;
+    width: 250px;
+    height: 50px;
+    border: solid 1px black;
+    box-shadow: 5px 5px 10px black;
+    transition: transform .2s;
+}
+
+.paiement div:hover{
+    transform: scale(1.1);
+}
+
+/*Footer*/
+footer{
+    background-color: #19314B;
+    width: 100%;
+    height: 350px;
+}
+
+footer i{
+    margin: 0px 10px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    height: 100px;
+}
+
+.footerLink{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+
+.footerLink h1{
+    color: white;
+    font-family: "Trade Winds";
+}
+
+.footerLink h4{
+    color: white;
+    text-align: center;
+    font-family: "Inter";
+}
+
+.footerLink h4:hover{
+    text-decoration: underline;
+}
+
+.flags{
+    display: flex;
+    justify-content: center;
+}
+
+.flags img{
+    height: 20px;
+    width: 30px;
+    margin: 0px 10px;
 }
