@@ -370,3 +370,45 @@ footer i{
     width: 30px;
     margin: 0px 10px;
 }
+
+/*MEDIAQUERIES*/
+
+/*TABLET*/
+@media screen and (max-width: 1024px) {
+
+    .textBoxTop select{
+        margin-left: 10px;
+    }
+
+    .box{
+        margin-left: 10px;
+    }
+    
+}
+
+/*PHONE*/
+@media screen and (max-width: 450px) {
+
+    body{
+        width: 1000px;
+    }
+
+    header{
+        height: 200px;
+    }
+
+    header h3{
+        visibility: hidden;
+    }
+
+    .logoNav{
+        width: 200px;
+        position: relative;
+        left: 370px;
+    }
+
+    .lineRight{
+        width: 300px;
+    }
+    
+}

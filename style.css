@@ -561,7 +561,7 @@ label{
 input{
     height: 25px;
     margin-bottom: 50px;
-    border: rgb(210, 210, 210) solid1px;
+    border: rgb(210, 210, 210) solid 1px;
     
 }
 
@@ -620,4 +620,142 @@ footer i{
     height: 20px;
     width: 30px;
     margin: 0px 10px;
+}
+
+/*MediaQuerie TABLET*/
+@media screen and (max-width: 1024px) {
+
+    .triangleLeft{
+        visibility: hidden;
+    }
+
+    .triangleRight{
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        right: 1000px;
+    }
+
+    .slogan{
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+    
+    main h1{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .slogan p{
+        margin-top: 100px;
+        width: 80%;
+        font-size: 35px;
+        }
+
+    main button{
+        position: absolute;
+        margin-top: 200px;
+    }
+
+    /*FIRSTBS*/
+
+    .firstBS p{
+        font-size: 21px;
+        width: 400px;
+    }
+
+    .firstBS img{
+        width: 50%;
+    }
+
+    /*SECONDBS*/
+
+    .triangleBS{
+        visibility: hidden;
+    }
+
+    .secondBS{
+        margin-top: 50px;
+    }
+
+    .secondBS p{
+        font-size: 23px;
+        width: 400px;
+        margin-top: 50px;
+    }
+
+    /*THIRDBS*/
+
+    .thirdBS{
+        margin-top: 50px;
+    }
+
+    .thirdBS img{
+        width: 50%;
+    }
+
+    .thirdBS p{
+        font-size: 23px;
+        width: 400px;
+    }
+
+    /*TOP*/
+
+    .top p{
+        width: 500px;
+    }
+
+    /*CONTACT*/
+
+    .name label{
+        width: 100px;
+    }
+
+    .name input{
+        margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+
+    body{
+        width: 1000px;
+    }
+
+    header{
+        height: 200px;
+    }
+
+    header h3{
+        visibility: hidden;
+    }
+
+    .logoNav{
+        width: 200px;
+        position: relative;
+        left: 370px;
+    }
+
+    .slogan h1{
+        width: 800px;
+    }
+
+    .slogan p{
+        width: 810px;
+    }
+
+    .top p{
+        font-size: 20px;
+        width: 350px;
+    }
+
+    .middle p{
+        font-size: 20px;
+        width: 300px;
+    }
+    
 }
